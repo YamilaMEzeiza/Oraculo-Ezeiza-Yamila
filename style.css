@@ -25,6 +25,7 @@
 body{
 	background-image: url(img/fondo.webp); 
 	background-attachment: fixed; 
+	overflow-x: hidden;
 	}
 /*Colores de fuente y de fondo*/
 .bg-purple{
