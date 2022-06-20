@@ -92,22 +92,22 @@
   <main>
      <div class="container">
         <div class="row">
-           <div class="col-sm-12 col-lg-8 bg-purple mt-4 mb-4">
+           <div class="col-sm-12 col-lg-8 bg-purple mt-4 d-grid gap-3 mb-4">
             <form>
         <div class="mb-3">
           <legend class="formulario title2  mt-4 text-center">Info de contacto </legend>
           <label for="nombre" class="formulario__info title text-center"> Nombre </label>
           <br>
-          <input type= "text" name= "nombre" id= "nombre" placeholder= "Marta">
+          <input type= "text" name= "nombre" class="form-control bg-light" rows="3" id= "nombre" placeholder= "Marta">
           <br> 
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label title text-center">Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control bg-light" rows="3" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
           <label for="localidad" class="formulario__info title"> Localidad </label>
-           <select name="localidad" id="localidad">
+           <select name="localidad" class="form-control bg-light" id="localidad">
              <option value="buenosaires"> Buenos Aires </option>
              <option value="caba"> Ciudad Autónoma de Buenos Aires </option>
              <option value="interior"> Interior del país </option>
@@ -115,11 +115,11 @@
        </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label title">Mensaje</label>
-         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+         <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <div class="mb-3">
-        <input type="submit" class="bg-aside" value="Enviar">
-        <input type="reset" class="bg-aside" value="Cancelar">
+        <input type="submit" class="bg-aside card-text ms-4" value="Enviar">
+        <input type="reset" class="bg-aside card-text ms-4" value="Cancelar">
       </div>
     </form>
     </div>
@@ -157,7 +157,7 @@
 <!--Inicia footer-->
 <div class="row">
   <footer class="row py-2 col-sm-12 col-md-12 col-lg-12 bg-purple">
-      <h2 class="title2 text-center"> Seguinos en nuestras redes</h2>
+      <h2 class="title2 bg-animacion text-center"> Seguinos en nuestras redes</h2>
        <div class="col-sm-12 col-md-12 col-lg-4 text-center"> <a href=" https://facebook.com" target="_blank"> <img src=" img/facebook.png" alt= "seguinos en facebook" class="footer__icon--md"> </a> </div>
        <div class="col-sm-12 col-md-12 col-lg-4 text-center"> <a href=" https://instagram.com" target="_blank"> <img src=" img/instagram.png" alt= "seguinos en instagram" class="footer__icon--md"></a> </div>
        <div class="col-sm-12 col-md-12 col-lg-4 text-center"> <a href=" https://twitter.com" target="_blank"> <img src="img/twitter.png" alt= "seguinos en twitter" class="footer__icon--md"> </a> </div>

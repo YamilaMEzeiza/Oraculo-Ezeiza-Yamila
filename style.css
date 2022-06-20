@@ -66,6 +66,12 @@ p {
  .card-body{
  		background-color: rgba(234,126,253,0.8);
  }
+ h5:hover{
+		background-color: #8114A5;
+		color: white ;
+		}
+
+ 
  .title{
  	font-family: 'Bevan', cursive;
 	color:#601297;
@@ -103,3 +109,18 @@ p {
  	font-size: 1rem;
  	line-height: 2rem;
  }
+
+ @keyframes animateDiv {
+  0%   {background-color:#FDEDF8; left:0px; top:0px;}
+  25%  {background-color#FC89E5; left:200px; top:0px;}
+  50%  {background-color:#9B3AB3; left:200px; top:200px;}
+  75%  {background-color:#90B8F9 left:0px; top:200px;}
+  100% {background-color:#BCA8C0; left:0px; top:0px;}
+}
+.bg-animacion{
+	animation-name: animateDiv;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+ 	animation-duration: 3s;
+  	animation-delay: 0;
+}
