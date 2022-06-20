@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Rancho&family=Uncial+Antiqua&display=swap');
+/*Estilos de botonera*/
+.navbar-purple{
+	background-color: #FCD7FA;
+}
+#botonera ul li a{
+	text-decoration: none;
+		font-size: 1.5rem;
+		color: #620E9E;
+		font-family: 'Rancho', cursive;
+		font-weight: 600;
+}
+#botonera ul li a:hover { 
+		background-color: #8114A5;
+		color: white ;
+		}
+.btn{
+		text-decoration: none;
+		font-size: 1.5rem;
+		color: white;
+		font-family: 'Rancho', cursive;
+		font-weight: 600;
+		background-color: #8114A5
+}
+body{
+	background-image: url(img/fondofondo.webp); 
+	background-attachment: fixed; 
+	}
+/*Colores de fuente y de fondo*/
+.bg-purple{
+	background-color: rgba(234,126,253,0.8);
+}
+
+h1{
+	color: #601297;
+	font-family: 'Bevan', cursive;
+	font-size: 2rem;
+	line-height: 4rem;
+	font-weight: 100; 
+}
+h2{
+	
+	font-family: 'Bevan', cursive;
+	color:#FEBB45;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 100; 
+	}
+p { 
+ 	font-family: 'Rancho', cursive;
+ 	color:#FEBB45;
+ 	font-size: 1.5rem;
+ 	line-height: 2rem;
+ }
+  .bg-orange{
+  	font-family: 'Bevan', cursive;
+	color:#FEBB45;
+	font-size: 2rem;
+	line-height: 4rem;
+	font-weight: 100; 
+}
+ .bg-aside{
+ 	background-color:  rgba(91,42,102,0.8);
+ }
+ /*Inicia contactos*/
+ .card-body{
+ 		background-color: rgba(234,126,253,0.8);
+ }
+ .title{
+ 	font-family: 'Bevan', cursive;
+	color:#601297;
+	font-size: 1rem;
+	line-height: 2rem;
+	font-weight: 50; 
+ }
+ .title2{
+
+ 	font-family: 'Bevan', cursive;
+	color:#601297;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: 50; 
+ }
+ 
+ .card-text {
+ 	font-family: 'Rancho', cursive;
+ 	color: black;
+ 	font-size: 1rem;
+ 	line-height: 2rem;
+ }
+
+ /*Inicia reseñas*/
+ li{
+ 	font-family: 'Rancho', cursive;
+ 	color:white;
+ 	font-size: 1.5rem;
+ 	line-height: 2rem;
+ }
+ /* Inicia catálogo*/
+ td{
+ 	font-family: 'Rancho', cursive;
+ 	color: black;
+ 	font-size: 1rem;
+ 	line-height: 2rem;
+ }
