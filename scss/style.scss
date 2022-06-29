@@ -1,0 +1,13 @@
+@import './componentes/_vars';
+@import './componentes/_fonts';
+@import './componentes/_navBar';
+@import './componentes/_commons';
+@import './pages/_contacto';
+@import './pages/_resenas';
+@import './pages/_catalogo';
+
+body{
+	background-image: url("../img/fondo.webp");
+	background-attachment: fixed; 
+	overflow-x: hidden;
+	}

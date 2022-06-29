@@ -1,0 +1,55 @@
+
+h1{
+	font-size: $fontXL;
+	font-family: $secondaryFont;
+	color: $mainColor;
+
+}
+
+h2{
+	font-size: $fontMD;
+	font-family: $secondaryFont;
+	color: $secondaryColor;
+
+}
+h3{
+	font-size: $fontSM;
+	font-family: $secondaryFont;
+	color: $mainColor;
+
+}
+
+p{
+	font-family:$mainFont;
+	line-height: 1.4em;
+	font-size: $fontSM;
+	margin-bottom: 30px;
+	color:$secondaryColor;
+}
+.bg-purple{
+	background-color: $bg__mainColor;
+}
+.bg-aside{
+ 	background-color:  $bg__secondaryColor;
+ }
+ .bg-orange{
+  	font-family: $secondaryFont;
+	color:$mainColor;
+	font-size: $fontMD;
+	line-height: 4rem;
+	font-weight: 100; 
+}
+@keyframes animateDiv {
+  0%   {background-color:#FDEDF8; left:0px; top:0px;}
+  25%  {background-color:#FC89E5; left:200px; top:0px;}
+  50%  {background-color:#9B3AB3; left:200px; top:200px;}
+  75%  {background-color:#90B8F9;left:0px; top:200px;}
+  100% {background-color:#BCA8C0; left:0px; top:0px;}
+}
+.bg-animacion{
+	animation-name: animateDiv;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+ 	animation-duration: 3s;
+  	animation-delay: 0;
+}

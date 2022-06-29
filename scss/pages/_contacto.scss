@@ -1,0 +1,25 @@
+.card-body{
+ 		background-color: rgba(234,126,253,0.8);
+ }
+ .title{
+ 	font-family:$secondaryFont;
+	color:$mainColor;
+	font-size: $fontSM;
+	line-height: 2rem;
+	font-weight: 50; 
+ }
+ .title2{
+
+ 	font-family:$secondaryFont;
+	color:$mainColor;
+	font-size: $fontMD;
+	line-height: 3rem;
+	font-weight: 50; 
+ }
+ 
+ .card-text {
+ 	font-family:$mainFont;
+ 	color: $black;
+ 	font-size: 1rem;
+ 	line-height: 2rem;
+ }

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Rancho&family=Uncial+Antiqua&display=swap");
+#botonera {
+  background-color: #FCD7FA; }
+  #botonera ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #601297;
+    font-family: "Rancho", cursive;
+    font-weight: 600; }
+    #botonera ul li a:hover {
+      background-color: #8114A5;
+      color: white; }
+
+.btn {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Rancho", cursive;
+  font-weight: 600;
+  background-color: #8114A5; }
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Bevan", cursive;
+  color: #601297; }
+
+h2 {
+  font-size: 2rem;
+  font-family: "Bevan", cursive;
+  color: #FEBB45; }
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Bevan", cursive;
+  color: #601297; }
+
+p {
+  font-family: "Rancho", cursive;
+  line-height: 1.4em;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #FEBB45; }
+
+.bg-purple {
+  background-color: rgba(234, 126, 253, 0.8); }
+
+.bg-aside {
+  background-color: rgba(91, 42, 102, 0.8); }
+
+.bg-orange {
+  font-family: "Bevan", cursive;
+  color: #601297;
+  font-size: 2rem;
+  line-height: 4rem;
+  font-weight: 100; }
+
+@keyframes animateDiv {
+  0% {
+    background-color: #FDEDF8;
+    left: 0px;
+    top: 0px; }
+  25% {
+    background-color: #FC89E5;
+    left: 200px;
+    top: 0px; }
+  50% {
+    background-color: #9B3AB3;
+    left: 200px;
+    top: 200px; }
+  75% {
+    background-color: #90B8F9;
+    left: 0px;
+    top: 200px; }
+  100% {
+    background-color: #BCA8C0;
+    left: 0px;
+    top: 0px; } }
+
+.bg-animacion {
+  animation-name: animateDiv;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 0; }
+
+.card-body {
+  background-color: rgba(234, 126, 253, 0.8); }
+
+.title {
+  font-family: "Bevan", cursive;
+  color: #601297;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 50; }
+
+.title2 {
+  font-family: "Bevan", cursive;
+  color: #601297;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 50; }
+
+.card-text {
+  font-family: "Rancho", cursive;
+  color: black;
+  font-size: 1rem;
+  line-height: 2rem; }
+
+li {
+  font-family: 'Rancho', cursive;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem; }
+
+td {
+  font-family: "Rancho", cursive;
+  color: black;
+  font-size: 1rem;
+  line-height: 2rem; }
+
+body {
+  background-image: url("../img/fondo.webp");
+  background-attachment: fixed;
+  overflow-x: hidden; }
