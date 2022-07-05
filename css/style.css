@@ -9,13 +9,13 @@
     font-weight: 600; }
     #botonera ul li a:hover {
       background-color: #8114A5;
-      color: white;
+      color: #F9F4FA;
       cursor: pointer; }
 
-.btn, .btn-estilo {
+.btn {
   text-decoration: none;
   font-size: 1.5rem;
-  color: white;
+  color: #F9F4FA;
   font-family: "Rancho", cursive;
   font-weight: 400;
   background-color: #8114A5; }
@@ -108,23 +108,31 @@ p {
   line-height: 3rem;
   font-weight: 50; }
 
-.card-text {
+.btn--contacto, .btn--enviar, .btn--cancelar {
   font-family: "Rancho", cursive;
   color: black;
   font-size: 1rem;
   line-height: 2rem; }
 
+.btn--enviar:hover {
+  background-color: green;
+  color: white; }
+
+.btn--cancelar:hover {
+  background-color: red;
+  color: white; }
+
 li {
   font-family: 'Rancho', cursive;
-  color: white;
+  color: #F9F4FA;
   font-size: 1.5rem;
   line-height: 2rem; }
   li:hover {
     background-color: #8114A5;
-    color: white;
+    color: #F9F4FA;
     cursor: pointer; }
 
-.btn, .btn-estilo {
+.btn {
   text-decoration: none;
   font-size: 1.5rem;
   color: #FFD3D3;
@@ -133,15 +141,10 @@ li {
   background-color: #4F1662;
   outline: none;
   margin-top: 20px; }
-  .btn:hover, .btn-estilo:hover {
+  .btn:hover {
     background-color: #8114A5;
-    color: white;
+    color: #F9F4FA;
     cursor: pointer; }
-
-.btn-estilo {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 td {
   font-family: "Rancho", cursive;
