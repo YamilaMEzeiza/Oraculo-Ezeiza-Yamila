@@ -17,9 +17,23 @@
 	font-weight: 50; 
  }
  
- .card-text {
+ .btn--contacto {
  	font-family:$mainFont;
  	color: $black;
  	font-size: 1rem;
  	line-height: 2rem;
  }
+  .btn--enviar{
+  	@extend .btn--contacto;
+  	&:hover{
+  		background-color: green;
+  		color: white;
+  	}
+  }
+  .btn--cancelar{
+  	@extend .btn--contacto;
+  	&:hover{
+  		background-color: red;
+  		color: white;
+  	}
+  }

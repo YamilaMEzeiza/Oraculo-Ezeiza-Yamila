@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Rancho&family=Uncial+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&family=Righteous&display=swap");
 #botonera {
   background-color: #FCD7FA; }
   #botonera ul li a {
@@ -9,29 +9,33 @@
     font-weight: 600; }
     #botonera ul li a:hover {
       background-color: #8114A5;
-      color: white; }
+      color: white;
+      cursor: pointer; }
 
-.btn {
+.btn, .btn-estilo {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
   font-family: "Rancho", cursive;
-  font-weight: 600;
+  font-weight: 400;
   background-color: #8114A5; }
 
+.form-control {
+  background-color: #FFEDFE; }
+
 h1 {
-  font-size: 2.5rem;
-  font-family: "Bevan", cursive;
+  font-size: 3.5rem;
+  font-family: "Righteous", cursive;
   color: #601297; }
 
 h2 {
-  font-size: 2rem;
-  font-family: "Bevan", cursive;
+  font-size: 2.2rem;
+  font-family: "Righteous", cursive;
   color: #FEBB45; }
 
 h3 {
   font-size: 1.5rem;
-  font-family: "Bevan", cursive;
+  font-family: "Righteous", cursive;
   color: #601297; }
 
 p {
@@ -39,18 +43,22 @@ p {
   line-height: 1.4em;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #FEBB45; }
+  color: #FEBB45;
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 .bg-purple {
-  background-color: rgba(234, 126, 253, 0.8); }
+  background-color: rgba(157, 127, 176, 0.8);
+  border-radius: 10px; }
 
 .bg-aside {
-  background-color: rgba(91, 42, 102, 0.8); }
+  background-color: rgba(91, 42, 102, 0.8);
+  border-radius: 10px;
+  margin-bottom: 10px; }
 
 .bg-orange {
-  font-family: "Bevan", cursive;
+  font-family: "Righteous", cursive;
   color: #601297;
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 4rem;
   font-weight: 100; }
 
@@ -87,16 +95,16 @@ p {
   background-color: rgba(234, 126, 253, 0.8); }
 
 .title {
-  font-family: "Bevan", cursive;
+  font-family: "Righteous", cursive;
   color: #601297;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 50; }
 
 .title2 {
-  font-family: "Bevan", cursive;
+  font-family: "Righteous", cursive;
   color: #601297;
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 3rem;
   font-weight: 50; }
 
@@ -111,12 +119,40 @@ li {
   color: white;
   font-size: 1.5rem;
   line-height: 2rem; }
+  li:hover {
+    background-color: #8114A5;
+    color: white;
+    cursor: pointer; }
+
+.btn, .btn-estilo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #FFD3D3;
+  font-family: "Rancho", cursive;
+  font-weight: 500;
+  background-color: #4F1662;
+  outline: none;
+  margin-top: 20px; }
+  .btn:hover, .btn-estilo:hover {
+    background-color: #8114A5;
+    color: white;
+    cursor: pointer; }
+
+.btn-estilo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 td {
   font-family: "Rancho", cursive;
   color: black;
   font-size: 1rem;
   line-height: 2rem; }
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 body {
   background-image: url("../img/fondo.webp");

@@ -25,12 +25,16 @@ p{
 	font-size: $fontSM;
 	margin-bottom: 30px;
 	color:$secondaryColor;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 .bg-purple{
 	background-color: $bg__mainColor;
+	border-radius: 10px;
 }
 .bg-aside{
  	background-color:  $bg__secondaryColor;
+ 	border-radius: 10px;
+ 	margin-bottom: 10px;
  }
  .bg-orange{
   	font-family: $secondaryFont;

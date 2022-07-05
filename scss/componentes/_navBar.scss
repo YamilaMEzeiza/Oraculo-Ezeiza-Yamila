@@ -10,9 +10,7 @@ ul li a{
 		font-weight: 600;
 
 &:hover { 
-		background-color: #8114A5;
-		color: $white ;
-		
+		@include hover;
 			
 		}
 	}
@@ -21,8 +19,11 @@ ul li a{
 .btn{
 		text-decoration: none;
 		font-size: $fontSM;
-		color: $white;
+		color:map-get ($mapaDeColores, $white);
 		font-family: $mainFont;
-		font-weight: 600;
+		font-weight: 400;
 		background-color: #8114A5;
+	}
+	.form-control{
+		background-color: #FFEDFE;
 	}
