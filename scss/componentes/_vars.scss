@@ -1,6 +1,7 @@
 //Colores de fuente//
 $mainColor: #601297;
-$secondaryColor:#FEBB45;
+$secondaryColor:#E1A61A;
+$keyColor:#FE7404;
 $white:#F9F4FA;
 $black:black;
 
@@ -8,10 +9,11 @@ $black:black;
 $mapaColores:(
 	"mainColor": #601297,
 	"secondaryColor":#FEBB45,
+	"keyColor":#FE7404,
 	"white":#F9F4FA,
 	"black":black);
 
 
 //Colores de fondo//
-$bg__mainColor:rgba(157,127,176,0.8);
+$bg__mainColor:rgba(158,99,182,0.8);
 $bg__secondaryColor:rgba(91,42,102,0.8);

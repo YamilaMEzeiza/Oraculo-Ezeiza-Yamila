@@ -9,10 +9,13 @@ h1{
 h2{
 	font-size: $fontMD;
 	font-family: $secondaryFont;
-	color: $secondaryColor;
-
+	color: $keyColor;
+	padding:0.5em;
+	
 }
-h3{
+
+h3,
+h4{
 	font-size: $fontSM;
 	font-family: $secondaryFont;
 	color: $mainColor;
@@ -26,6 +29,7 @@ p{
 	margin-bottom: 30px;
 	color:$secondaryColor;
 	text-shadow: black 0.1em 0.1em 0.2em;
+	padding: 1em;
 }
 .bg-purple{
 	background-color: $bg__mainColor;
@@ -38,10 +42,22 @@ p{
  }
  .bg-orange{
   	font-family: $secondaryFont;
-	color:$mainColor;
+	color:$keyColor;
 	font-size: $fontMD;
 	line-height: 4rem;
 	font-weight: 100; 
+}
+#footer{
+	background-color:rgba(252,215,250,0.8);
+}
+.footerText{
+	font-family:$mainFont;
+	line-height: 1.4em;
+	font-size: $fontSM;
+	margin-bottom: 30px;
+	color:$keyColor;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	padding: 1em;
 }
 @keyframes animateDiv {
   0%   {background-color:#FDEDF8; left:0px; top:0px;}
@@ -56,4 +72,9 @@ p{
 	animation-timing-function: ease-in;
  	animation-duration: 3s;
   	animation-delay: 0;
+}
+.card{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
 }

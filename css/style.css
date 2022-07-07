@@ -31,9 +31,11 @@ h1 {
 h2 {
   font-size: 2.2rem;
   font-family: "Righteous", cursive;
-  color: #FEBB45; }
+  color: #FE7404;
+  padding: 0.5em; }
 
-h3 {
+h3,
+h4 {
   font-size: 1.5rem;
   font-family: "Righteous", cursive;
   color: #601297; }
@@ -43,11 +45,12 @@ p {
   line-height: 1.4em;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #FEBB45;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  color: #E1A61A;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding: 1em; }
 
 .bg-purple {
-  background-color: rgba(157, 127, 176, 0.8);
+  background-color: rgba(158, 99, 182, 0.8);
   border-radius: 10px; }
 
 .bg-aside {
@@ -57,10 +60,22 @@ p {
 
 .bg-orange {
   font-family: "Righteous", cursive;
-  color: #601297;
+  color: #FE7404;
   font-size: 2.2rem;
   line-height: 4rem;
   font-weight: 100; }
+
+#footer {
+  background-color: rgba(252, 215, 250, 0.8); }
+
+.footerText {
+  font-family: "Rancho", cursive;
+  line-height: 1.4em;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #FE7404;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding: 1em; }
 
 @keyframes animateDiv {
   0% {
@@ -91,6 +106,11 @@ p {
   animation-duration: 3s;
   animation-delay: 0; }
 
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
 .card-body {
   background-color: rgba(234, 126, 253, 0.8); }
 
@@ -107,6 +127,9 @@ p {
   font-size: 2.2rem;
   line-height: 3rem;
   font-weight: 50; }
+
+.card-text {
+  color: black; }
 
 .btn--contacto, .btn--enviar, .btn--cancelar {
   font-family: "Rancho", cursive;
@@ -149,13 +172,8 @@ li {
 td {
   font-family: "Rancho", cursive;
   color: black;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 2rem; }
-
-.card {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
 
 body {
   background-image: url("../img/fondo.webp");

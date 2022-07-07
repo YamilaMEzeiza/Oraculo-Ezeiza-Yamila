@@ -4,7 +4,7 @@
  .title{
  	font-family:$secondaryFont;
 	color:$mainColor;
-	font-size: $fontSM;
+	font-size: 1.5rem;
 	line-height: 2rem;
 	font-weight: 50; 
  }
@@ -15,6 +15,9 @@
 	font-size: $fontMD;
 	line-height: 3rem;
 	font-weight: 50; 
+ }
+ .card-text{
+  color:$black;
  }
  
  .btn--contacto {
