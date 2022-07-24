@@ -24,7 +24,7 @@
   background-color: #FFEDFE; }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Righteous", cursive;
   color: #601297; }
 
@@ -46,7 +46,6 @@ p {
   font-size: 1.5rem;
   margin-bottom: 30px;
   color: #E1A61A;
-  text-shadow: black 0.1em 0.1em 0.2em;
   padding: 1em; }
 
 .bg-purple {
@@ -73,8 +72,7 @@ p {
   line-height: 1.4em;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #FE7404;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  color: black;
   padding: 1em; }
 
 @keyframes animateDiv {
@@ -110,6 +108,18 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+.btn-estilo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #F9F4FA;
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  background-color: #8114A5;
+  border: none; }
+
+.parrafo {
+  text-shadow: black 0.1em 0.1em 0.2em; }
 
 .card-body {
   background-color: rgba(234, 126, 253, 0.8); }

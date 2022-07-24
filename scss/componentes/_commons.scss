@@ -28,7 +28,6 @@ p{
 	font-size: $fontSM;
 	margin-bottom: 30px;
 	color:$secondaryColor;
-	text-shadow: black 0.1em 0.1em 0.2em;
 	padding: 1em;
 }
 .bg-purple{
@@ -55,8 +54,7 @@ p{
 	line-height: 1.4em;
 	font-size: $fontSM;
 	margin-bottom: 30px;
-	color:$keyColor;
-	text-shadow: black 0.1em 0.1em 0.2em;
+	color:$black;
 	padding: 1em;
 }
 @keyframes animateDiv {
@@ -77,4 +75,16 @@ p{
 	display: flex;
 	justify-content:space-around;
 	align-items: center;
+}
+.btn-estilo{
+		text-decoration: none;
+		font-size: $fontSM;
+		color:map-get($mapaColores,"white");
+		font-family: $mainFont;
+		font-weight: 400;
+		background-color: #8114A5;
+		border: none;
+	}
+.parrafo{
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
